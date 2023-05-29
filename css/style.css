@@ -1,0 +1,142 @@
+* {margin:0;
+padding:0;
+box-sizing:border-box;}
+body {
+    background-color: black;
+}
+
+
+@font-face {
+    font-family:  'Itim';
+    src : url(../font/Itim-Regular.ttf)
+ }
+
+
+.text1 {
+font-family: 'Itim';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+color: #FFFFFF;
+}
+.text2 {
+    font-family: 'Itim';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+#email{
+    background-image: url(../image/Layer\ 2.png);
+    background-repeat: no-repeat;
+    text-indent:70px;
+    background-position: 10px 10px;
+    padding:12px ;
+    background-color: transparent;
+    border: 4px solid #FFFFFF;
+    border-radius: 15px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight:bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    height:55px;
+   
+   
+}
+#email::placeholder {
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight:bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+   
+}
+
+
+#password{
+    
+    background-image: url(../image/Vector\ \(9\).png);
+    background-repeat: no-repeat;
+    text-indent:70px;
+    background-position: 10px 10px;
+    padding:12px ;
+    height:55px;
+    background-color: transparent;
+    border: 4px solid #FFFFFF;
+    border-radius: 15px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight:bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    
+}
+#password::placeholder {
+    font-family: 'Itim';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+margin-top: 5px;
+color: rgba(255, 255, 255, 0.51);
+}
+
+
+.button1 {
+   
+border-radius: 15px;
+height:56px;
+width:450px;
+font-family: 'Itim';
+font-style: normal;
+font-weight: 400;
+font-size: 31.3469px;
+line-height: 38px;
+color: #FFFFFF;
+
+}
+.text3 {
+    font-family: 'Itim';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #1A7FC1;
+text-align: right;
+}
+a {
+    text-decoration: none;
+}
+.text5 {
+    font-family: 'Itim';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+i.fa-folder {
+    transform: translate(calc(100%));
+    border-left: 1px solid white;
+    padding: 15px;
+    position: fixed;
+    top:21.4%;
+    left:32.9%;
+    
+}
+.icon2 {
+    transform: translate(-90deg);
+    border-left: 2px solid rgba(255, 255, 255, 0.51);
+    padding: 15px;
+    position: absolute;
+    top:42%;
+    left:35.1%;
+
+}
+input {padding-right: 2em;}
